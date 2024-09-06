@@ -53,6 +53,15 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Portfolio: portfolio.md
+  - Blog:
+      - Watchtower ECR Helper: blog/watchtower-ecr.md
+  - Contact: contact.md
+
 extra:
   consent:
     title: Cookie consent
@@ -62,5 +71,5 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 copyright: >
-  Copyright &copy; 2024-2024 M Taufiq Permana Sumarna –
+  Copyright &copy; 2024 taufiqpsumarna.my.id –
   <a href="#__consent">Change cookie settings</a>
