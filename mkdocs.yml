@@ -89,6 +89,17 @@ nav:
 
 # Footer
 extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/taufiqpsumarna
+    - icon: fontawesome/brands/github
+      link: https://github.com/taufiqpsumarna
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/taufiqpsumarna
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/taufiqpsumarna
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@taufiqpsumarna
   consent:
     title: Cookie consent
     description: >- 
