@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Using Watchtower to Automate Docker Image Updates"
 date: 2024-09-06
 description: "How to use Watchtower for automating Docker image updates with notifications in Mattermost."
