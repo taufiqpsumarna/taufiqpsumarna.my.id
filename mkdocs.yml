@@ -7,6 +7,7 @@ site_description: >-
 
 # Website Theme
 theme:
+  language: id
   favicon: assets/images/favicon/favicon.png
   name: material
   icon:
@@ -119,6 +120,10 @@ extra_javascript:
 
 # Footer
 extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/taufiqpsumarna

@@ -2,5 +2,6 @@ mkdocs-material
 mkdocs-material-extensions
 mkdocs-material[recommended,imaging]
 mkdocs-meta-descriptions-plugin
+mkdocs-static-i18n
 pillow 
 cairosvg
