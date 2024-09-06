@@ -1,5 +1,9 @@
-site_name: Taufiq Documentation
+# Project information
+site_name: taufiqpsumarna.my.id
 site_url: https://taufiqpsumarna.my.id
+site_author: M Taufiq Permana Sumarna
+site_description: >-
+  My Personal Portfoliom, Blog and Documentation
 
 # Website Theme
 theme:
@@ -11,20 +15,26 @@ theme:
     text: Noto Sans
     code: Inconsolata
   features:
+    - announce.dismiss
+    - content.code.copy
     - toc.follow
     - navigation.top
     - navigation.tabs
     - navigation.prune
     - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
     - content.code.annotate
     - search.share
+    - search.highlight
+    - search.suggest
 
 # Pallete
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: orange
+      primary: indigo
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -32,7 +42,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: orange
+      primary: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -48,6 +58,9 @@ plugins:
       authors: true
       authors_file: "{blog}/.authors.yml"
   - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
   - social:
       enabled: !ENV [CI, false]
   - tags:
@@ -62,6 +75,12 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true

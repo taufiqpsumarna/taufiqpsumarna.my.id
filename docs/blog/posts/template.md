@@ -28,7 +28,7 @@ The Watchtower tool can be used to monitor running containers and automatically 
 
 Install Watchtower on your Docker host:
 
-```
+``` bash
 docker run -d \
   --name watchtower \
   -v /var/run/docker.sock:/var/run/docker.sock \
