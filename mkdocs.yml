@@ -1,0 +1,4 @@
+site_name: Taufiq Documentation
+site_url: https://docs.taufiqpsumarna.my.id
+theme:
+  name: material
