@@ -89,6 +89,9 @@ nav:
     - blog/index.md
   - Contact: contact.md
 
+# Javascript:
+extra_javascript:
+  - scripts/copyright.js
 
 # Footer
 extra:
@@ -115,4 +118,4 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 copyright: >
-  Copyright &copy; 2024 <a href="/"> taufiqpsumarna.my.id – <a href="#__consent">Change cookie settings</a>
+  Copyright &copy; <span id="copyright-year"></span> <a href="/"> taufiqpsumarna.my.id – <a href="#__consent">Change cookie settings</a>
