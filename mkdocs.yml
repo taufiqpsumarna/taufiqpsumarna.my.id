@@ -11,6 +11,7 @@ theme:
     text: Noto Sans
     code: Inconsolata
   features:
+    - content.code.copy
     - toc.follow
     - navigation.top
     - navigation.tabs
@@ -63,6 +64,12 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
