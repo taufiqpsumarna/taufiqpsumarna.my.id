@@ -1,11 +1,25 @@
 site_name: Taufiq Documentation
 site_url: https://taufiqpsumarna.my.id
-theme:
-  name: material
-  features:
-    - navigation.instant
-    - content.code.annotate 
 
+# Website Theme
+theme:
+  favicon: images/favicon/infinity-solid.png
+  name: material
+  icon:
+    logo: fontawesome/solid/infinity
+  font:
+    text: Noto Sans
+    code: Inconsolata
+  features:
+    - toc.follow
+    - navigation.top
+    - navigation.tabs
+    - navigation.prune
+    - navigation.indexes
+    - content.code.annotate
+    - search.share
+
+# Pallete
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -23,18 +37,27 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+#Plugins
+
 plugins:
   - privacy
   - blog:
       blog_dir: blog
-  - search
+      post_readtime: true
+      draft: true
+      authors: true
+      authors_file: "{blog}/.authors.yml"
+  - search:
   - social:
       enabled: !ENV [CI, false]
-  - tags
+  - tags:
+      tags_file: tags.md
   - group:
       plugins:
         - optimize
         - minify
+
+# Extension
 
 markdown_extensions:
   - attr_list
@@ -53,7 +76,40 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - toc:
+      permalink: true
+
+
+# Navigation Bar
+nav:
+  - Home: index.md
+  - About Me: aboutme.md
+  - Portfolio: portfolio.md
+  - Blog:
+    - blog/index.md
+  - Contact: contact.md
+
+# Javascript:
+extra_javascript:
+  - scripts/copyright.js
+
+# Footer
 extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/taufiqpsumarna
+    - icon: fontawesome/brands/github
+      link: https://github.com/taufiqpsumarna
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/taufiqpsumarna
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/taufiq14s
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/15878247/taufiq
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/taufiqpsumarna
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@taufiqpsumarna
   consent:
     title: Cookie consent
     description: >- 
@@ -62,5 +118,4 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 copyright: >
-  Copyright &copy; 2024-2024 M Taufiq Permana Sumarna –
-  <a href="#__consent">Change cookie settings</a>
+  Copyright &copy; <span id="copyright-year"></span> <a href="/"> taufiqpsumarna.my.id – <a href="#__consent">Change cookie settings</a>
