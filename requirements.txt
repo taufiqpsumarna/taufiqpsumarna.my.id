@@ -1,0 +1,6 @@
+mkdocs-material 
+mkdocs-material-extensions
+mkdocs-material[recommended,imaging]
+mkdocs-meta-descriptions-plugin
+pillow 
+cairosvg
