@@ -1,11 +1,24 @@
 site_name: Taufiq Documentation
 site_url: https://taufiqpsumarna.my.id
+
+# Website Theme
 theme:
   name: material
+  icon:
+    logo: fontawesome/solid/infinity
+  font:
+    text: Noto Sans
+    code: Inconsolata
   features:
-    - navigation.instant
-    - content.code.annotate 
+    - toc.follow
+    - navigation.top
+    - navigation.tabs
+    - navigation.prune
+    - navigation.indexes
+    - content.code.annotate
+    - search.share
 
+# Pallete
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -23,18 +36,27 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+#Plugins
+
 plugins:
   - privacy
   - blog:
       blog_dir: blog
-  - search
+      post_readtime: true
+      draft: true
+      authors: true
+      authors_file: "{blog}/.authors.yml"
+  - search:
   - social:
       enabled: !ENV [CI, false]
-  - tags
+  - tags:
+      tags_file: tags.md
   - group:
       plugins:
         - optimize
         - minify
+
+# Extension
 
 markdown_extensions:
   - attr_list
@@ -54,14 +76,18 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+
+# Navigation Bar
 nav:
   - Home: index.md
-  - About Me: about.md
+  - About Me: aboutme.md
   - Portfolio: portfolio.md
   - Blog:
-      - Watchtower ECR Helper: blog/watchtower-ecr.md
+    - blog/index.md
   - Contact: contact.md
 
+
+# Footer
 extra:
   consent:
     title: Cookie consent
