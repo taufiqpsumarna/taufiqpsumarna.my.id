@@ -32,7 +32,9 @@ plugins:
       enabled: !ENV [CI, false]
   - tags
   - group:
-      enabled: !ENV CI
+      plugins:
+        - optimize
+        - minify
 
 markdown_extensions:
   - attr_list
