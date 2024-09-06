@@ -16,6 +16,7 @@ theme:
     - navigation.tabs
     - navigation.prune
     - navigation.indexes
+    - navigation.instant
     - content.code.annotate
     - search.share
 
