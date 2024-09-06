@@ -4,7 +4,7 @@ hide:
 ---
 # About Me
 
-I’m Taufiq, a passionate DevOps Engineer currently working at PT. IDStar Cipta Teknologi as DevOps Engineer. With a strong focus on Research and Development (RnD) and IT Delivery, I help companies implement DevOps culture and adopt the tools needed to automating infrastructure using tools like Docker, Kubernetes, AWS, and CI/CD pipelines and enhance infrastructure.
+I’m Taufiq, currently working at PT. IDStar Cipta Teknologi as DevOps Engineer. With a strong focus on Research and Development (RnD) and IT Delivery, I help companies implement DevOps culture and adopt the tools needed to automating infrastructure using tools like Docker, Kubernetes, AWS, and CI/CD pipelines and enhance infrastructure.
 
 <hr>
 
