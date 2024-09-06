@@ -1,10 +1,10 @@
+---
 # Project information
 site_name: taufiqpsumarna.my.id
 site_url: https://taufiqpsumarna.my.id
 site_author: M Taufiq Permana Sumarna
 site_description: >-
   My Personal Portfoliom, Blog and Documentation
-
 # Website Theme
 theme:
   language: en
@@ -30,7 +30,6 @@ theme:
     - search.share
     - search.highlight
     - search.suggest
-
 # Pallete
   palette: 
     # Palette toggle for light mode
@@ -40,7 +39,6 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -48,9 +46,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
 #Plugins
-
 plugins:
   - privacy
   - blog:
@@ -73,9 +69,7 @@ plugins:
       plugins:
         - optimize
         - minify
-
 # Extension
-
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -103,8 +97,6 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true
-
-
 # Navigation Bar
 nav:
   - Home: index.md
@@ -113,11 +105,9 @@ nav:
   - Blog:
     - blog/index.md
   - Contact: contact.md
-
 # Javascript:
 extra_javascript:
   - scripts/copyright.js
-
 # Footer
 extra:
   alternate:
