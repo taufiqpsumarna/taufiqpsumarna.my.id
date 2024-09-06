@@ -7,7 +7,7 @@ site_description: >-
 
 # Website Theme
 theme:
-  favicon: images/favicon/infinity-solid.png
+  favicon: assets/images/favicon/favicon.png
   name: material
   icon:
     logo: fontawesome/solid/infinity
@@ -17,6 +17,7 @@ theme:
   features:
     - announce.dismiss
     - content.code.copy
+    - content.tooltips
     - toc.follow
     - navigation.top
     - navigation.tabs
@@ -73,6 +74,8 @@ plugins:
 # Extension
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - attr_list
   - md_in_html
   - pymdownx.highlight:
