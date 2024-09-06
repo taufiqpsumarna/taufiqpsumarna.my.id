@@ -1,5 +1,9 @@
-site_name: Taufiq Documentation
+# Project information
+site_name: taufiqpsumarna.my.id
 site_url: https://taufiqpsumarna.my.id
+site_author: M Taufiq Permana Sumarna
+site_description: >-
+  My Personal Portfoliom, Blog and Documentation
 
 # Website Theme
 theme:
@@ -11,6 +15,7 @@ theme:
     text: Noto Sans
     code: Inconsolata
   features:
+    - announce.dismiss
     - content.code.copy
     - toc.follow
     - navigation.top
@@ -18,8 +23,11 @@ theme:
     - navigation.prune
     - navigation.indexes
     - navigation.instant
+    - navigation.tracking
     - content.code.annotate
     - search.share
+    - search.highlight
+    - search.suggest
 
 # Pallete
   palette: 
@@ -50,6 +58,9 @@ plugins:
       authors: true
       authors_file: "{blog}/.authors.yml"
   - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
   - social:
       enabled: !ENV [CI, false]
   - tags:
