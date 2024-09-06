@@ -55,10 +55,10 @@ plugins:
   - blog:
       blog_dir: blog
       post_readtime: true
-      draft: true
       authors: true
       authors_file: "{blog}/.authors.yml"
-      draft_on_serve: false
+      draft: false
+      draft_on_serve: true
       draft_if_future_date: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
