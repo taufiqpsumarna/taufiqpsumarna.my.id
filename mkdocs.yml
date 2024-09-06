@@ -3,6 +3,7 @@ site_url: https://taufiqpsumarna.my.id
 
 # Website Theme
 theme:
+  favicon: images/favicon/infinity-solid.png
   name: material
   icon:
     logo: fontawesome/solid/infinity
@@ -75,6 +76,8 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - toc:
+      permalink: true
 
 
 # Navigation Bar
@@ -96,6 +99,10 @@ extra:
       link: https://github.com/taufiqpsumarna
     - icon: fontawesome/brands/gitlab
       link: https://gitlab.com/taufiqpsumarna
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/taufiq14s
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/15878247/taufiq
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/taufiqpsumarna
     - icon: fontawesome/brands/medium
