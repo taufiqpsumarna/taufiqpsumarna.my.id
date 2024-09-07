@@ -11,29 +11,29 @@ I’m Taufiq, currently working at PT. IDStar Cipta Teknologi as DevOps Engineer
 
 ## :material-lightbulb-on: Skills
 
-- Cloud Computing: Proficient in deploying and managing infrastructure on AWS, GCP, and Azure.
-- DevOps: Skilled in automating development and operational processes using CI/CD pipelines.
-- Cybersecurity: Experience in implementing security practices, including vulnerability scanning and attack surface analysis.
-- IT Infrastructure: Managing and designing robust IT systems for enterprises.
-- IT Support: Providing technical support for network systems and third-party applications.
-- Network Engineering: Designing and configuring networks, including firewalls, routers, and switches.
-- SysAdmin: Managing and monitoring servers, databases, and system resources.
+- __Cloud Computing__                   : Proficient in deploying and managing infrastructure on :fontawesome-brands-aws: AWS, :material-google-cloud: GCP, :material-microsoft-azure: Azure
+- __DevOps__                            : Skilled in automating development and operational processes using CI/CD pipelines.
+- __Cybersecurity__                     : Experience in implementing security practices, including vulnerability scanning and attack surface analysis.
+- __IT Infrastructure__                 : Managing and designing robust IT systems for enterprises.
+- __IT Support__                        : Providing technical support for network systems and third-party applications.
+- __Network Engineering__               : Designing and configuring networks, including firewalls, routers, and switches.
+- __SysAdmin__                          : Managing and monitoring servers, databases, and system resources.
 
 <hr>
 
 ## :fontawesome-solid-cubes-stacked: Tech Stack
 
-- Cloud Platforms: AWS, Google Cloud Platform (GCP), Microsoft Azure
-- Operating Systems: Debian, Ubuntu, Centos
-- Containers and Orchestration: Docker, Kubernetes
-- Configuration Management: Ansible, Terraform
-- CI/CD Tools: GitLab CI/CD, GitHub Actions, Jenkins
-- Monitoring and Logging: Prometheus, Grafana, Promtail, Loki, Alloy
-- Infrastructure as Code (IaC): Terraform
-- Programming and Scripting: Bash, Python
-- Web Servers: Nginx
-- Version Control: Git, GitLab, GitHub
-- Security Tools: Trivy, Gitguardian, Trufflehog, Sonarqube
+- __Cloud Platforms__               : :fontawesome-brands-aws: AWS :material-google-cloud: GCP :material-microsoft-azure: Azure
+- __Operating Systems__             : :fontawesome-brands-debian: Debian :fontawesome-brands-ubuntu: Ubuntu :fontawesome-brands-centos: Centos
+- __Containers and Orchestration__  : :fontawesome-brands-docker: Docker :simple-kubernetes: Kubernetes
+- __Configuration Management__      : :simple-ansible: Ansible
+- __CI/CD Tools__                   : :fontawesome-brands-gitlab: GitLab CI/CD :simple-githubactions: GitHub Actions :simple-jenkins: Jenkins
+- __Monitoring and Logging__        : :simple-prometheus: Prometheus :simple-grafana: Grafana Promtail Loki Alloy
+- __Infrastructure as Code (IaC)__  : :simple-terraform: Terraform :fontawesome-brands-docker: Docker Compose
+- __Programming and Scripting__     : :simple-gnubash: Bash :fontawesome-brands-python: Python
+- __Web Servers__                   : :simple-nginx: Nginx :simple-apache: Apache
+- __Version Control__               : :fontawesome-brands-git-alt: Git :fontawesome-brands-gitlab: GitLab :fontawesome-brands-github: GitHub
+- __Security Tools__                : :simple-trivy: Trivy :material-owl: Gitguardian :material-pig: Trufflehog :simple-sonarqube: Sonarqube :material-security: Semgrep :simple-openvpn: OpenVPN
 
 <hr>
 
@@ -87,7 +87,7 @@ __Computer Network Engineering Vocational Student SMKN 2 Baleendah – Bandung, 
 
 <hr>
 
-## Training
+## :material-library-outline: Training
 __Bangkit Academy 2023 – Cloud Computing Learning Path__
 
 :material-calendar-outline: February 2023 - July 2023
@@ -114,7 +114,7 @@ __Digipreneur Academy – Digital Talent Scholarship, Kominfo__
 
 <hr>
 
-## Certifications
+## :material-certificate: Certifications
 __Google Cloud Certified – Associate Cloud Engineer__
 
 :material-calendar-outline: September 2023
