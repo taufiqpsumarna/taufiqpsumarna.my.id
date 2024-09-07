@@ -64,6 +64,8 @@ plugins:
       enabled: !ENV [CI, false]
   - tags:
       tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
   - group:
       plugins:
         - optimize
