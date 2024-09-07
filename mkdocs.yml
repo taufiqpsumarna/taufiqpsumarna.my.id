@@ -1,10 +1,10 @@
+---
 # Project information
 site_name: taufiqpsumarna.my.id
 site_url: https://taufiqpsumarna.my.id
 site_author: M Taufiq Permana Sumarna
 site_description: >-
   My Personal Portfoliom, Blog and Documentation
-
 # Website Theme
 theme:
   language: en
@@ -12,7 +12,7 @@ theme:
   name: material
   icon:
     logo: fontawesome/solid/infinity
-  font:
+  font: 
     text: Noto Sans
     code: Inconsolata
   features:
@@ -30,7 +30,6 @@ theme:
     - search.share
     - search.highlight
     - search.suggest
-
 # Pallete
   palette: 
     # Palette toggle for light mode
@@ -40,7 +39,6 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -48,11 +46,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
 #Plugins
-
 plugins:
-  - privacy
   - blog:
       blog_dir: blog
       post_readtime: true
@@ -69,13 +64,13 @@ plugins:
       enabled: !ENV [CI, false]
   - tags:
       tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
   - group:
       plugins:
         - optimize
         - minify
-
 # Extension
-
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -87,7 +82,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.critic
@@ -103,8 +102,6 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true
-
-
 # Navigation Bar
 nav:
   - Home: index.md
@@ -113,11 +110,11 @@ nav:
   - Blog:
     - blog/index.md
   - Contact: contact.md
-
-# Javascript:
+#  - gitGraph: gitgraph.md
+# Extras
 extra_javascript:
   - scripts/copyright.js
-
+  
 # Footer
 extra:
   alternate:
