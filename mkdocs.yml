@@ -12,7 +12,7 @@ theme:
   name: material
   icon:
     logo: fontawesome/solid/infinity
-  font:
+  font: 
     text: Noto Sans
     code: Inconsolata
   features:
@@ -48,7 +48,6 @@ theme:
         name: Switch to light mode
 #Plugins
 plugins:
-  - privacy
   - blog:
       blog_dir: blog
       post_readtime: true
