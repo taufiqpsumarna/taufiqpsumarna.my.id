@@ -80,7 +80,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.critic
@@ -104,9 +108,11 @@ nav:
   - Blog:
     - blog/index.md
   - Contact: contact.md
-# Javascript:
+  - Timeline: journey.md
+# Extras
 extra_javascript:
   - scripts/copyright.js
+  
 # Footer
 extra:
   alternate:
