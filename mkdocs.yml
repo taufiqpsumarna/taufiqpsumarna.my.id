@@ -108,7 +108,6 @@ nav:
   - Blog:
     - blog/index.md
   - Contact: contact.md
-  - Timeline: journey.md
 # Extras
 extra_javascript:
   - scripts/copyright.js

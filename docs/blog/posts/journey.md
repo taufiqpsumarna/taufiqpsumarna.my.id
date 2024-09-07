@@ -1,7 +1,12 @@
 ---
-hide:
-    - toc
-    - navigation
+draft: false
+authors: 
+  - taufiqpsumarna
+title: "My Life Journey"
+date: 2001-03-14
+description: "My Life Journey Timeline Diagram"
+categories: [Other]
+tags: [Quotes]
 ---
 
 
