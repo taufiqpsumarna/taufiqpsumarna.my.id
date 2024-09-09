@@ -5,7 +5,7 @@ authors:
 title: "Linux Server System Audit Using Cisofy Lynis"
 date: 2022-08-20
 description: "Linux Server System Audit Using Cisofy Lynis"
-categories: [Blog]
+categories: [Medium]
 tags: [medium,security,linux,cisofy]
 ---
 

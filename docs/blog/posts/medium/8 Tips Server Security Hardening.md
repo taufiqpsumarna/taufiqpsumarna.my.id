@@ -5,7 +5,7 @@ authors:
 title: "8 Tips Server Security Hardening"
 date: 2022-08-11
 description: "8 Tips Server Security Hardening"
-categories: [Blog]
+categories: [Medium]
 tags: [medium,security]
 ---
 

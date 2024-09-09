@@ -5,7 +5,7 @@ authors:
 title: "DevSecOps: Securing Gitlab CI/CD Pipeline"
 date: 2023-03-19
 description: "DevSecOps: Securing Gitlab CI/CD Pipeline"
-categories: [Blog]
+categories: [Medium]
 tags: [medium,devops,gitlab,gitlab-runner,aws,ec2]
 ---
 

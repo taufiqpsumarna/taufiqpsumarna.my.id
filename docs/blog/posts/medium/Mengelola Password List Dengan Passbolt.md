@@ -5,7 +5,7 @@ authors:
 title: "Mengelola Password List Dengan Passbolt"
 date: 2022-05-26
 description: "Mengelola Password List Dengan Passbolt"
-categories: [Blog]
+categories: [Medium]
 tags: [medium,devsecops,passbolt]
 ---
 
