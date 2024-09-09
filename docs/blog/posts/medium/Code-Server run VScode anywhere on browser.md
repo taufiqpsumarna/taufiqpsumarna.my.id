@@ -5,8 +5,8 @@ authors:
 title: "Code-Server: run VScode anywhere on browser"
 date: 2023-09-22
 description: "Code-Server: run VScode anywhere on browser"
-categories: [Blog]
-tags: [medium,devops,docker,vscode]
+categories: [Medium]
+tags: [devops,docker,vscode]
 ---
 
 *Published on 2023-09-22*

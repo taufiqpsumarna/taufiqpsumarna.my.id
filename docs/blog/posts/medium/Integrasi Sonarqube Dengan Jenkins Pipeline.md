@@ -5,8 +5,8 @@ authors:
 title: "Integrasi Sonarqube Dengan Jenkins Pipeline"
 date: 2022-05-06
 description: "Integrasi Sonarqube Dengan Jenkins Pipeline"
-categories: [Blog]
-tags: [medium,devsecops,sonarqube,jenkins,CI/CD]
+categories: [Medium]
+tags: [devsecops,sonarqube,jenkins,CI/CD]
 ---
 
 *Published on 2022-05-06*

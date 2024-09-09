@@ -5,8 +5,8 @@ authors:
 title: "Setup Grafana Loki Basic Auth Behind Nginx Reverse Proxy (HTTPS)"
 date: 2024-08-06
 description: "Setup Grafana Loki Basic Auth Behind Nginx Reverse Proxy (HTTPS)"
-categories: [Blog]
-tags: [medium,sre,grafana,alloy,prometheus,loki]
+categories: [Medium]
+tags: [sre,grafana,alloy,prometheus,loki]
 ---
 
 *Published on 2024-08-06*
