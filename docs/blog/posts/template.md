@@ -1,17 +1,17 @@
 ---
-draft: true
+draft: true #Todo: Change False to post Blog
 authors: 
   - taufiqpsumarna
-title: "Hello World"
-date: 2024-09-06
-description: "Hello World Blog Template"
-categories: [Blog]
-tags: [Hello-World]
+title: "Hello World" #Todo: Add Blog Title
+date: 2024-09-06 #Todo: Change Date
+description: "Hello World Blog Template" #Todo: Add Short Description / Subtitle
+categories: [Blog] #Todo: Categories Blog, Medium, Other
+tags: [Hello-World] #Todo: Add Blog Tags
 ---
 
 # Hello World
 
-*Published on 2024-09-06*
+*Published on 2024-09-06* #Todo: Change Date
 
 ![This Is Picture](/assets/images/hello_world.jpg)
 
