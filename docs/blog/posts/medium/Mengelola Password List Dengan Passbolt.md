@@ -11,7 +11,7 @@ tags: [devsecops,passbolt]
 
 *Published on 2022-05-26*
 
-![This Is Picture](/blog/assets/images/passbolt.jpg)
+![This Is Picture](/assets/images/passbolt.jpg)
 
 !!!quote
     Finally, a password manager built for collaboration. Secure, flexible, and automation ready. Trusted by 10,000 organizations, including Fortune 500 companies, newspapers, governments and defence forces.

@@ -11,7 +11,7 @@ tags: [security]
 
 *Published on 2022-08-11*
 
-![This Is Picture](/blog/assets/images/security.jpg)
+![This Is Picture](/assets/images/security.jpg)
 
 Ketika kita membangun sebuah aplikasi khususnya aplikasi yang berbasi web tentunya kita membutuhkan sebuat server untuk menyimpan dan menjalankan aplikasi kita, dalam hal ini Tim Operation perlu memastikan ketika menyiapkan sebuah environment khususnya server harus memenuhi standar keamanan yang ada, untuk meminimalisir serangan yang dilakukan oleh orang yang tidak bertanggung jawab, yang akan merugikan perusahaan dimana kita bekerja, disini saya akan memberikan beberapa tips dalam melakukan hardening server khususnya linux server.
 Read More:
