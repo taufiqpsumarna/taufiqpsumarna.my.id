@@ -11,6 +11,17 @@ theme:
   name: material
   icon:
     logo: fontawesome/solid/infinity
+    tag:
+      default: material/tag
+      ansible: material/ansible
+      aws: fontawesome/brands/aws
+      gcp: material/google-cloud
+      docker: material/docker
+      linux: fontawesome/brands/linux
+      ubuntu: fontawesome/brands/ubuntu
+      centos: fontawesome/brands/centos
+      debian: fontawesome/brands/debian
+      security: material/security
   font: 
     text: Noto Sans
     code: Inconsolata
@@ -25,6 +36,7 @@ theme:
     - navigation.indexes
     - navigation.instant
     - navigation.tracking
+    - navigation.sections
     - content.code.annotate
     - search.share
     - search.highlight
@@ -104,8 +116,10 @@ markdown_extensions:
 # Navigation Bar
 nav:
   - Home: index.md
-  - About Me: aboutme.md
-  - Portfolio: portfolio.md
+  - About Me:
+    - about/index.md
+  - Portfolio: 
+    - portfolio/index.md
   - Blog:
     - blog/index.md
   - Contact: contact.md
