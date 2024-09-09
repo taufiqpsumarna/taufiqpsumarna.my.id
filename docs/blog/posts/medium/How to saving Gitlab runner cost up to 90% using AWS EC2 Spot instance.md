@@ -11,7 +11,7 @@ tags: [devops,gitlab,gitlab-runner,aws,ec2]
 
 *Published on 2023-12-11*
 
-![This Is Picture](/blog/assets/images/saving-cost-gitlab-runner-ec2.jpg)
+![This Is Picture](/assets/images/saving-cost-gitlab-runner-ec2.jpg)
 
 Gitlab Runner is a component of Gitlab CI/CD that plays a crucial role in executing the jobs defined in your CI/CD pipelines. It acts as a worker machine, responsible for running tasks like building, testing, and deploying your code. Unlike other CI/CD tools that require dedicated servers, Gitlab Runner offers flexibility and scalability.
 
