@@ -18,4 +18,4 @@ Sonarqube merupakan sebuah tools yang biasanya digunakan pada tahapan Static app
 Sonarqube akan melakukan analisa sebuah kode program menggunakan rules yang dimilikinya kemudian melaporkan hasil analisa tersebut kepada user.
 
 Read More:
-https://medium.com/@taufiqpsumarna/integrasi-sonarqube-kedalam-jenkins-pipeline-3cb3de98fdbe
+[Medium: Integrasi Sonarqube Dengan Jenkins Pipeline](https://medium.com/@taufiqpsumarna/integrasi-sonarqube-kedalam-jenkins-pipeline-3cb3de98fdbe)
