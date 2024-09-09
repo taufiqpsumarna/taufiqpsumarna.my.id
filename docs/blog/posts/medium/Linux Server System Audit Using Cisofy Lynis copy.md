@@ -2,21 +2,26 @@
 draft: false
 authors: 
   - taufiqpsumarna
-title: "Mini Project: Gitlab CI/CD Pipeline For React Application"
-date: 2023-03-25
-description: "Mini Project: Gitlab CI/CD Pipeline For React Application"
+title: "Code-Server: run VScode anywhere on browser"
+date: 2023-09-22
+description: "Code-Server: run VScode anywhere on browser"
 categories: [Blog]
-tags: [medium,devops,CI/CD]
+tags: [medium,devops,docker,vscode]
 ---
 
-*Published on 2023-03-25*
+*Published on 2023-09-22*
 
-![This Is Picture](/blog/assets/images/miniproject-cicd.jpg)
+![This Is Picture](/blog/assets/images/vscode-on-browser.jpg)
 
-Pada proyek ini, kita akan membuat pipeline CI/CD untuk aplikasi React menggunakan GitLab CI/CD. Kita akan menerapkan tiga tahapan (stages) yaitu Build, Test, dan Deploy. Selain itu, kita juga akan membagi dua lingkungan server, yaitu Staging dan Production.
+Run VS Code on any machine anywhere using Code Server Docker Compose File
 
-## Apa itu CI/CD?
-CI/CD adalah singkatan dari Continuous Integration/Continuous Deployment. CI/CD adalah suatu metode untuk mengotomatisasi proses pengembangan perangkat lunak. Continuous Integration (CI) adalah proses membangun dan menguji kode secara otomatis setiap kali ada perubahan pada kode. Continuous Deployment (CD) adalah proses memindahkan kode yang telah melewati proses CI ke dalam lingkungan produksi secara otomatis.
+Code Server is a VS Code extension that lets you run VS Code on any machine anywhere using Docker Compose. This means you can code on your Chromebook, tablet, and laptop with a consistent dev environment. You can also develop on a Linux machine and pick up from any device with a web browser.
+
+To run VS Code on any machine anywhere using Code Server Docker Compose File, follow these steps:
+
+Install Docker and Docker Compose in server, you can follow this link
+Create a docker-compose.yml file in the root of your project directory.
+Add the following code to your docker-compose.yml file:
 
 Read More:
-[Medium: Mini Project: Gitlab CI/CD Pipeline For React Application](https://medium.com/@taufiqpsumarna/mini-proyek-gitlab-ci-cd-pipeline-for-react-application-part1-98e3499e77ad)
+[Medium: Code-Server: run VScode anywhere on browser](https://medium.com/@taufiqpsumarna/mini-proyek-gitlab-ci-cd-pipeline-for-react-application-part1-98e3499e77ad)

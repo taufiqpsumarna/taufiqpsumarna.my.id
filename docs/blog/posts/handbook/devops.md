@@ -7,7 +7,7 @@ date: 2024-09-09
 description: "DevOps Engineer Handbook"
 categories: [Handbook]
 tags: [handbook]
-pin: true
+pin: false
 ---
 
 *Published on 2024-09-09*
