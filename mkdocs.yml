@@ -121,11 +121,14 @@ extra_javascript:
   
 # Footer
 extra:
+  generator: false
   alternate:
     - name: Indonesia
       link: /id/ 
       lang: id
   social:
+    - icon: material/gmail
+      link: mailto:taufiqpsumarna@gmail.com
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/taufiqpsumarna
     - icon: fontawesome/brands/github
@@ -148,4 +151,4 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 copyright: >
-  Copyright &copy; <span id="copyright-year"></span> <a href="/"> taufiqpsumarna.my.id – <a href="#__consent">Change cookie settings</a>
+  Copyright &copy; 2024</span> | <a href="/"> Privacy and Policy </a> | <a href="/terms-and-condition.md"> Terms and Condition </a> | <a href="/"> taufiqpsumarna.my.id – <a href="#__consent">Change cookie settings</a>
