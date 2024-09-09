@@ -5,8 +5,8 @@ authors:
 title: "Monitoring Website Menggunakan Uptime Kuma “Uptime Robot” Alternative"
 date: 2022-06-01
 description: "Monitoring Website Menggunakan Uptime Kuma “Uptime Robot” Alternative"
-categories: [Blog]
-tags: [medium,sre,docker,uptimekuma]
+categories: [Medium]
+tags: [sre,docker,uptimekuma]
 ---
 
 *Published on 2022-06-01*

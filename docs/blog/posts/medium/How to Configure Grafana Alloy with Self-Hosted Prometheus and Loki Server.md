@@ -5,8 +5,8 @@ authors:
 title: "How to Configure Grafana Alloy with Self-Hosted Prometheus and Loki Server"
 date: 2024-08-21
 description: "How to Configure Grafana Alloy with Self-Hosted Prometheus and Loki Server"
-categories: [Blog]
-tags: [medium,sre,grafana,alloy,prometheus,loki,selfhosted]
+categories: [Medium]
+tags: [sre,grafana,alloy,prometheus,loki,selfhosted]
 ---
 
 *Published on 2024-08-21*
