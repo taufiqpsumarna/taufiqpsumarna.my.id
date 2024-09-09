@@ -11,8 +11,6 @@ tags: [Hello-World] #Todo: Add Blog Tags
 
 # Hello World
 
-*Published on 2024-09-06* #Todo: Change Date
-
 ![This Is Picture](/assets/images/hello_world.jpg)
 
 
