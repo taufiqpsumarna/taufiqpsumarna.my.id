@@ -7,7 +7,6 @@ site_description: >-
   My Personal Portfoliom, Blog and Documentation
 # Website Theme
 theme:
-  language: en
   favicon: /assets/images/favicon.png
   name: material
   icon:
@@ -122,10 +121,6 @@ extra_javascript:
 # Footer
 extra:
   generator: false
-  alternate:
-    - name: Indonesia
-      link: /id/ 
-      lang: id
   social:
     - icon: material/gmail
       link: mailto:taufiqpsumarna@gmail.com
