@@ -13,7 +13,7 @@ tags: [DevOps, Docker, Automation, Watchtower, ECR, Mattermost, Notifications]
 
 *Published on 2024-09-06*
 
-![This Is Picture](/docs/blog/assets/images/hello_world.jpg)
+![This Is Picture](/blog/assets/images/hello_world.jpg)
 
 ## Introduction
 
