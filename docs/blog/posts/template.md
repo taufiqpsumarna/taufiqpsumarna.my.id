@@ -13,7 +13,7 @@ tags: [Hello-World]
 
 *Published on 2024-09-06*
 
-![This Is Picture](/blog/assets/images/hello_world.jpg)
+![This Is Picture](/assets/images/hello_world.jpg)
 
 
 ``` bash

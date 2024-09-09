@@ -11,7 +11,7 @@ tags: [devops,docker,vscode]
 
 *Published on 2023-09-22*
 
-![This Is Picture](/blog/assets/images/vscode-on-browser.jpg)
+![This Is Picture](/assets/images/vscode-on-browser.jpg)
 
 Run VS Code on any machine anywhere using Code Server Docker Compose File
 

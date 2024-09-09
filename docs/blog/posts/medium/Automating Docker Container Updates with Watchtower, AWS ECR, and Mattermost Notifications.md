@@ -11,7 +11,7 @@ tags: [devops,docker,watchtower,mattermost,shoutrr,aws,ecr]
 
 *Published on 2024-09-07*
 
-![This Is Picture](/blog/assets/images/watctower-aws-credentials-helper.jpg)
+![This Is Picture](/assets/images/watctower-aws-credentials-helper.jpg)
 
 As DevOps keeps growing, automation is becoming more important than ever for managing modern infrastructure. In this post, I’ll show you an easy way to automate Docker container updates using Watchtower. On top of that, we’ll hook it up with AWS ECR Credentials Helper for hassle-free authentication and Mattermost for sending real-time notifications.
 
