@@ -11,7 +11,7 @@ tags: [security,linux,cisofy]
 
 *Published on 2022-08-20*
 
-![This Is Picture](/blog/assets/images/cisofy.jpg)
+![This Is Picture](/assets/images/cisofy.jpg)
 
 Lynis adalah alat audit keamanan untuk sistem berbasis UNIX seperti Linux, macOS, BSD, dan lainnya. Ini melakukan pemindaian keamanan mendalam dan berjalan pada sistem itu sendiri.
 

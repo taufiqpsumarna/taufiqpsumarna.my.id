@@ -11,7 +11,7 @@ tags: [sre,grafana,alloy,prometheus,loki]
 
 *Published on 2024-08-06*
 
-![This Is Picture](/blog/assets/images/grafana-alloy-diagram.jpg)
+![This Is Picture](/assets/images/grafana-alloy-diagram.jpg)
 
 ## Quick Introduction
 ### Grafana Loki

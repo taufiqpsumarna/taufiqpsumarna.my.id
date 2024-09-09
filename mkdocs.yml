@@ -53,7 +53,7 @@ plugins:
       post_readtime: true
       authors: true
       authors_file: "{blog}/.authors.yml"
-      draft: false
+      draft: true
       draft_on_serve: true
       draft_if_future_date: true
   - search:

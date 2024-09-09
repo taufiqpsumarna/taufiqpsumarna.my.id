@@ -11,7 +11,7 @@ tags: [sre,grafana,alloy,prometheus,loki,selfhosted]
 
 *Published on 2024-08-21*
 
-![This Is Picture](/blog/assets/images/grafana-alloy-intro.jpg)
+![This Is Picture](/assets/images/grafana-alloy-intro.jpg)
 
 ## Quick Introduction
 ### Grafana Loki

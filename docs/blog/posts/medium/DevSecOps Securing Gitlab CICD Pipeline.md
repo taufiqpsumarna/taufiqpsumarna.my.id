@@ -11,7 +11,7 @@ tags: [devops,gitlab,gitlab-runner,aws,ec2]
 
 *Published on 2023-03-19*
 
-![This Is Picture](/blog/assets/images/devsecops-cicd.jpg)
+![This Is Picture](/assets/images/devsecops-cicd.jpg)
 
 In today’s fast-paced software development landscape, delivering secure and reliable applications quickly is crucial. This is where DevSecOps comes in, bringing together development, operations, and security teams to integrate security practices throughout the entire application lifecycle. A key element of this approach is securing your GitLab CI/CD pipeline, which automates the process of building, testing, and deploying your code.
 
