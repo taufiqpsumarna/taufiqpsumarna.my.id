@@ -2,16 +2,18 @@
 draft: true
 authors: 
   - taufiqpsumarna
-title: "Using Watchtower to Automate Docker Image Updates"
+title: "Hello World"
 date: 2024-09-06
 description: "How to use Watchtower for automating Docker image updates with notifications in Mattermost."
-categories: [DevOps, Automation]
+categories: [Blog]
 tags: [DevOps, Docker, Automation, Watchtower, ECR, Mattermost, Notifications]
 ---
 
-# Using Watchtower to Automate Docker Image Updates
+# Hello World
 
 *Published on 2024-09-06*
+
+![This Is Picture](/docs/blog/assets/images/hello_world.jpg)
 
 ## Introduction
 
