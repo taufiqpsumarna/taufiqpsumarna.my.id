@@ -110,9 +110,10 @@ nav:
   - Blog:
     - blog/index.md
   - Contact: contact.md
-  - Handbook:
-      DevOps:
-        - handbook/devops/intro.md
+  - Docs:
+      Handbook:
+        DevOps:
+          - handbook/devops/intro.md
 #  - gitGraph: gitgraph.md
 # Extras
 extra_javascript:
