@@ -7,36 +7,10 @@ date: 2024-09-09
 description: "DevOps Engineer Handbook"
 categories: [Handbook]
 tags: [handbook]
+pin: true
 ---
 
 *Published on 2024-09-09*
-
-Here’s a **Handbook Template** that you can use, structured for clarity and ease of navigation. This template is versatile and can be applied to various roles or processes in a DevOps environment.
-
----
-
-# DevOps Engineer Handbook
-
-**Author**: Taufiq  
-**Position**: DevOps Engineer  
-**Company**: PT. IDStar Cipta Teknologi  
-
----
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Roles and Responsibilities](#roles-and-responsibilities)
-3. [Key Tools and Technologies](#key-tools-and-technologies)
-4. [Processes and Workflows](#processes-and-workflows)
-5. [Best Practices](#best-practices)
-6. [Security Guidelines](#security-guidelines)
-7. [Incident Response](#incident-response)
-8. [Continuous Learning](#continuous-learning)
-9. [Useful Resources](#useful-resources)
-10. [Conclusion](#conclusion)
-
----
 
 ## 1. Introduction
 
@@ -123,6 +97,9 @@ The field of DevOps is constantly evolving. It’s essential to stay updated on 
 
 This handbook serves as a guide for DevOps Engineers to navigate their roles efficiently. By following the processes, tools, and best practices outlined here, you can drive successful and secure DevOps operations. Remember to continuously learn and adapt as technology evolves.
 
----
+## 11. Devops Roadmap
+DevOps is a cultural and collaborative mindset that emphasizes communication, collaboration, integration, and automation between development and operations teams in order to achieve faster and more reliable software delivery.
 
-This template provides a structured and professional format, making it easy to navigate and reference important topics. You can modify the sections based on your specific needs and experience.
+DevOps is not a specific job title or role, but rather a set of practices and principles that can be applied across a variety of roles in software development and IT operations. Anyone involved in the software development and delivery process can adopt a DevOps mindset and apply DevOps practices in their work, including developers, testers, operations engineers, product managers, and others.
+
+[DevOps Roadmap - Step by step guide for DevOps, SRE or any other Operations Role](https://roadmap.sh/devops)
