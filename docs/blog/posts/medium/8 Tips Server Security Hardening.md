@@ -6,7 +6,7 @@ title: "8 Tips Server Security Hardening"
 date: 2022-08-11
 description: "8 Tips Server Security Hardening"
 categories: [Medium]
-tags: [medium,security]
+tags: [security]
 ---
 
 *Published on 2022-08-11*

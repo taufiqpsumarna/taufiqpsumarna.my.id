@@ -6,7 +6,7 @@ title: "How to saving Gitlab runner cost up to 90% using AWS EC2 Spot instance"
 date: 2023-12-11
 description: "How to saving Gitlab runner cost up to 90% using AWS EC2 Spot instance"
 categories: [Medium]
-tags: [medium,devops,gitlab,gitlab-runner,aws,ec2]
+tags: [devops,gitlab,gitlab-runner,aws,ec2]
 ---
 
 *Published on 2023-12-11*

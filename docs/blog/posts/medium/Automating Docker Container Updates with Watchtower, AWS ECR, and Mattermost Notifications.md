@@ -6,7 +6,7 @@ title: "Automating Docker Container Updates with Watchtower, AWS ECR, and Matter
 date: 2024-09-07
 description: "Automating Docker Container Updates with Watchtower, AWS ECR, and Mattermost Notifications"
 categories: [Medium]
-tags: [medium,devops,docker,watchtower,mattermost,shoutrr,aws,ecr]
+tags: [devops,docker,watchtower,mattermost,shoutrr,aws,ecr]
 ---
 
 *Published on 2024-09-07*
