@@ -26,7 +26,7 @@ theme:
       security: material/security
   font: 
     text: Noto Sans
-    code: Inconsolata
+    code: Source Code Pro
   features:
     - announce.dismiss
     - content.code.copy
@@ -48,14 +48,16 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: white
+      accent: blue
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: black
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -152,7 +154,7 @@ extra:
       security: security
   generator: false
   social:
-    - icon: material/gmail
+    - icon: material/send
       link: mailto:taufiqpsumarna@gmail.com
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/taufiqpsumarna
