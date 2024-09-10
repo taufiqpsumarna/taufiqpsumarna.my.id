@@ -56,8 +56,8 @@ jobs:
           python-version: '3.x'
       - name: Install required packages
         run: pip install -r requirements.txt
-      - name: Build site (_site directory name is used for Jekyll compatiblity)
-        run: mkdocs build --config-file ./mkdocs.yml --strict --site-dir ./_site
+      - name: Build site
+        run: mkdocs build --config-file ./mkdocs.yml --clean --site-dir ./_site
         env:
           CI: true
       - name: Upload artifact
