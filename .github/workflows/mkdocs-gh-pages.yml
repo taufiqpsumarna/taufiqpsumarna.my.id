@@ -22,28 +22,38 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  lint:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+          with:
+              fetch-depth: '0'
+        - name: Install yamllint
+          run: pip install yamllint
+        - name: Check MkDocs YAML configuration
+          run: yamllint ./mkdocs.yml
+          continue-on-error: true
+        - name: Check Markdown files
+          uses: DavidAnson/markdownlint-cli2-action@v16
+          with:
+            fix: true
+            globs: '**/*.md'
+          continue-on-error: true
   # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+            fetch-depth: '0'
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Install yamllint
-        run: pip install yamllint
-      - name: Check MkDocs YAML configuration
-        run: yamllint ./mkdocs.yml
-        continue-on-error: true
-      - name: Check Markdown files
-        uses: DavidAnson/markdownlint-cli2-action@v16
-        with:
-          globs: '**/*.md'
-        continue-on-error: true
       - name: Install required packages
         run: pip install -r requirements.txt
       - name: Build site (_site directory name is used for Jekyll compatiblity)
