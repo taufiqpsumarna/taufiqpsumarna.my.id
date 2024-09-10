@@ -44,6 +44,7 @@ jobs:
       - name: Check Markdown files
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
+          fix: true
           globs: '**/*.md'
         continue-on-error: true
       - name: Install required packages
