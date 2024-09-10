@@ -3,13 +3,13 @@ draft: false
 authors: 
   - taufiqpsumarna
 title: "Tulisan Pertama Disini"
-date: 2024-09-07
+date: 2024-09-01
 description: "Ikatlah Ilmu Dengan Tulisan"
 categories: [Other]
 tags: [Quotes]
 ---
 
-*Published on 2024-09-07*
+*Published on 2024-09-01*
 
 !!!quote
     Ilmu adalah buruan dan tulisan adalah ikatannya Ikatlah buruanmu dengan tali yang kuat, Termasuk kebodohan kalau engkau memburu kijang Setelah itu kamu tinggalkan terlepas begitu saja.

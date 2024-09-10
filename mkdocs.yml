@@ -79,6 +79,7 @@ plugins:
       tags_file: tags.md
   - git-revision-date-localized:
       enable_creation_date: true
+  - open-in-new-tab
   - group:
       plugins:
         - optimize
