@@ -1,0 +1,10 @@
+---
+draft: false #Todo: Change False to post Blog
+authors: 
+  - taufiqpsumarna
+title: "Infisical: The Open Source Secret Management Solution You Need" #Todo: Add Blog Title
+date: 2024-09-12 #Todo: Change Date
+description: "Managing secrets securely is one of the key challenges in modern software development" #Todo: Add Short Description / Subtitle
+categories: [Blog] #Todo: Categories Blog, Medium, Other
+tags: [tutorial, devsecops, docker, 2fauth, 2fa, security] #Todo: Add Blog Tags
+---
