@@ -1,15 +1,3 @@
-<!-- ---
-draft: false
-authors: 
-  - taufiqpsumarna
-title: "DevOps Engineer Handbook"
-date: 2024-09-09
-description: "DevOps Engineer Handbook"
-categories: [Handbook]
-tags: [handbook]
-pin: false
---- -->
-
 *Published on 2024-09-09*
 
 ## 1. Introduction
@@ -98,8 +86,12 @@ The field of DevOps is constantly evolving. It’s essential to stay updated on 
 This handbook serves as a guide for DevOps Engineers to navigate their roles efficiently. By following the processes, tools, and best practices outlined here, you can drive successful and secure DevOps operations. Remember to continuously learn and adapt as technology evolves.
 
 ## 11. Devops Roadmap
+
 DevOps is a cultural and collaborative mindset that emphasizes communication, collaboration, integration, and automation between development and operations teams in order to achieve faster and more reliable software delivery.
 
 DevOps is not a specific job title or role, but rather a set of practices and principles that can be applied across a variety of roles in software development and IT operations. Anyone involved in the software development and delivery process can adopt a DevOps mindset and apply DevOps practices in their work, including developers, testers, operations engineers, product managers, and others.
 
+### Reference
+
 [DevOps Roadmap - Step by step guide for DevOps, SRE or any other Operations Role](https://roadmap.sh/devops)
+[Nubetes: DevOps](https://nubenetes.com/devops/)
