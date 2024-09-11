@@ -181,4 +181,5 @@ The implementation of DevSecOps enhances security across the development lifecyc
 
 ### Reference
 
-[Nubetes: DevSecOps](https://nubenetes.com/devsecops/)
+- [Nubetes: DevSecOps](https://nubenetes.com/devsecops/)
+- [AWS: What Is DevSecOps?](https://aws.amazon.com/id/what-is/devsecops/)

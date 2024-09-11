@@ -93,5 +93,5 @@ DevOps is not a specific job title or role, but rather a set of practices and pr
 
 ### Reference
 
-[DevOps Roadmap - Step by step guide for DevOps, SRE or any other Operations Role](https://roadmap.sh/devops)
-[Nubetes: DevOps](https://nubenetes.com/devops/)
+- [DevOps Roadmap - Step by step guide for DevOps, SRE or any other Operations Role](https://roadmap.sh/devops)
+- [Nubetes: DevOps](https://nubenetes.com/devops/)
