@@ -1,5 +1,5 @@
 ---
-draft: true #Todo: Change False to post Blog
+draft: false #Todo: Change False to post Blog
 authors: 
   - taufiqpsumarna
 title: "UFW: Accidentally locked out SSH Port (22)" #Todo: Add Blog Title
