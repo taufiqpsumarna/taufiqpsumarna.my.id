@@ -86,9 +86,6 @@ The Dockerfile uses multi-stage builds, which are a powerful feature in Docker. 
 
 Building lightweight Docker images for Java apps leads to faster deployments, lower resource consumption, and improved security. It’s a smart choice for modern, cloud-native Java applications, where efficiency, speed, and security are critical factors. Keep your Docker images slim to make the most of your containerized environments!
 
-
-## Reference
-
 ### References:
 
 1. Docker Multi-Stage Builds: Official documentation explaining the benefits and use of multi-stage builds to optimize image size. [Docker Documentation](https://docs.docker.com/develop/develop-images/multistage-build/)
