@@ -69,7 +69,7 @@ plugins:
       authors: true
       authors_file: "{blog}/.authors.yml"
       draft: false
-      draft_on_serve: true
+      draft_on_serve: false
       draft_if_future_date: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -82,10 +82,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - open-in-new-tab
-  - group:
-      plugins:
-        - optimize
-        - minify
+  - glightbox
 # Extension
 markdown_extensions:
   - admonition
@@ -131,7 +128,9 @@ nav:
   - Docs:
      - Handbook:
         - DevOps:
-            - handbook/devops/intro.md
+            - handbook/devops/index.md
+        - DevSecOps:
+            - handbook/devsecops/index.md
 #  - gitGraph: gitgraph.md
 # Extras
 extra_javascript:
