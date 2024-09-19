@@ -69,11 +69,51 @@ Infisical logs all changes to secrets, allowing teams to track who accessed or m
 6. Collaboration Made Easy
 Teams can use Infisical to collaborate securely on shared secrets. The platform ensures that secrets are always up to date across environments, eliminating the common issue of outdated credentials or manual updates.
 
+## How To Use: Local Development
+
+In this demo we will use infisical CLI for retrieve secret from Infisical Cloud or Self-host
+
+1. Cloud or [Self-host](https://infisical.com/docs/self-hosting/overview)
+2. Create Project for storing seecret management
+   ![This Is Picture](/assets/images/infisical-01-create-project.png)
+3. Adding Secret, you can add secret individually or accessing individual environment then upload env file
+   ![This Is Picture](/assets/images/infisical-02-create-secret.png)
+   ![This Is Picture](/assets/images/infisical-03-created-secret.png)
+   ![This Is Picture](/assets/images/infisical-04-upload-file.png)
+4. Create Service Token: Access Control > Service Token
+   ![This Is Picture](/assets/images/infisical-05-access-token.png)
+   ![This Is Picture](/assets/images/infisical-05-1-access-token.png)
+5. Install Infisical CLI, Guide [Here](https://infisical.com/docs/cli/overview)
+6. Run apps with infisical secret using `infisical run`
+
+   ```bash
+    bla bla bla
+   ```
+
+7. Generate .env file using `infisical export`
+
+   ```bash
+    bla bla bla
+   ```
+
+## How To Use: CI/CD Environment
+
+In this demo we will use Infisical with Gitlab CI/CD Pipeline
+
+1. Create Machine Identity
+2. Choose `universal-auth` method for generating `INFISICAL_TOKEN` (recommended)
+3. Setup CI/CD Variables
+4. Setup Gitlab Pipeline
+
+<script src="https://gist.github.com/taufiqpsumarna/53ea8fe30455f65dcafc3a9a12fe14f6.js"></script>
+
 ## Conclusion
 
 Managing secrets securely is not just a best practice—it’s a necessity. Infisical, as an open-source secret management solution, offers a blend of security, transparency, and ease of use, making it a strong contender for anyone looking to secure their application secrets.
 By implementing Infisical, you can reduce the risk of security breaches, unauthorized access, and compliance violations, all while enabling your team to collaborate effectively and securely on sensitive data.
 
 ### Reference
-[infiscal](https://infisical.com/)
-[infisical documentation](https://infisical.com/docs/documentation/getting-started/introduction)
+
+- [infiscal Official Website](https://infisical.com/)
+- [infisical documentation](https://infisical.com/docs/documentation/getting-started/introduction)
+- [infisical CLI documentation](https://infisical.com/docs/cli/overview)
