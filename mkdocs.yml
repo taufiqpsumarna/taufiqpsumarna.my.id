@@ -82,10 +82,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - open-in-new-tab
-  - group:
-      plugins:
-        - optimize
-        - minify
+  - glightbox
 # Extension
 markdown_extensions:
   - admonition
