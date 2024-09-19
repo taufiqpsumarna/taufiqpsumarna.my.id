@@ -69,43 +69,99 @@ Infisical logs all changes to secrets, allowing teams to track who accessed or m
 6. Collaboration Made Easy
 Teams can use Infisical to collaborate securely on shared secrets. The platform ensures that secrets are always up to date across environments, eliminating the common issue of outdated credentials or manual updates.
 
-## How To Use: Local Development
+## How To Use in Local Development Environment
 
 In this demo we will use infisical CLI for retrieve secret from Infisical Cloud or Self-host
 
 1. Cloud or [Self-host](https://infisical.com/docs/self-hosting/overview)
-2. Create Project for storing seecret management
+2. Create Project `+ Add New Project` 
    ![This Is Picture](/assets/images/infisical-01-create-project.png)
-3. Adding Secret, you can add secret individually or accessing individual environment then upload env file
+3. Add Project Secret `Project Name > + Add Secret` in here you can add secret individually
    ![This Is Picture](/assets/images/infisical-02-create-secret.png)
    ![This Is Picture](/assets/images/infisical-03-created-secret.png)
+4.  Or upload .env file  `Development > Explore > Drag and Drop a .env, .json, or .yml`
    ![This Is Picture](/assets/images/infisical-04-upload-file.png)
-4. Create Service Token: Access Control > Service Token
+5. Create Service Token: Access Control > Service Token
    ![This Is Picture](/assets/images/infisical-05-access-token.png)
    ![This Is Picture](/assets/images/infisical-05-1-access-token.png)
-5. Install Infisical CLI, Guide [Here](https://infisical.com/docs/cli/overview)
-6. Run apps with infisical secret using `infisical run`
-
+6. Install Infisical CLI, Guide [Here](https://infisical.com/docs/cli/overview)
+7. Login using web auth (default)
    ```bash
-    bla bla bla
+      #Login infisical Self-host using web-auth
+      infisical login
+      ========================================================================
+      ✔ Self Hosting
+      Domain: https://INFISICAL_URL
+
+      To complete your login, open this address in your browser: https://INFISICAL_URL/login?callback_port=34715 
+
+      Once login is completed via browser, the CLI should be authenticated automatically.
+      However, if browser fails to communicate with the CLI, please paste the token from the browser below.
+
+      Token: Browser login successful
+      >>>> Welcome to Infisical! You are now logged in as EMAIL_ACCOUNT <<<< 
+
+      Quick links
+      - Learn to inject secrets into your application at https://infisical.com/docs/cli/usage
+      - Stuck? Join our slack for quick support https://infisical.com/slack
+   ```
+8. Infisical project init
+   ```bash
+      infisical init
+      ========================================================================
+      ✔ YOUR_ORG
+      ✔ infisical-demo
+      cat .infisical.json
+      {
+         "workspaceId": "xxxxxxx-xxxxx-xxxx-xxxx-xxxxxxxxxx",
+         "defaultEnvironment": "dev",
+         "gitBranchToEnvironmentMapping": null
+      }                                             
+   ```
+9. Run your apps with infisical secret using `infisical run -- your-run-apps-script`
+   ```bash
+      infisical run --env=dev --path="/" -- docker run hello-world
+      ========================================================================
+      4:11PM INF Injecting 1 Infisical secrets into your application process      
+   ```
+10. Generate .env file using `infisical export`
+   ```bash
+      infisical export --env=dev > .env
+      ========================================================================
+      #Show .env File content
+      ls -alh
+      total 24K
+      drwxr-xr-x  2 dash15 dash15 4.0K Sep 19 16:18 .
+      drwxrwxrwt 39 root   root    12K Sep 19 16:09 ..
+      -rw-r--r--  1 dash15 dash15   29 Sep 19 16:18 .env
+      -rw-------  1 dash15 dash15  134 Sep 19 16:09 .infisical.json
+
+      cat .env
+      APP_KEY='1234567890-app-key'
    ```
 
-7. Generate .env file using `infisical export`
-
-   ```bash
-    bla bla bla
-   ```
-
-## How To Use: CI/CD Environment
+## How To Use in Gitlab CI/CD Environment
 
 In this demo we will use Infisical with Gitlab CI/CD Pipeline
 
-1. Create Machine Identity
-2. Choose `universal-auth` method for generating `INFISICAL_TOKEN` (recommended)
-3. Setup CI/CD Variables
-4. Setup Gitlab Pipeline
+1. Create Machine Identity `Organization Settings > Machine Identities > + Create identity`
+2. Choose `universal-auth` method for generating `INFISICAL_TOKEN` [Machine Identity](https://infisical.com/docs/cli/commands/login#machine-identity-authentication-quick-start)
+3. Setup Gitlab CI/CD Variables
+ 
+    !!!info "Gitlab CI/CD Variables List"
+         - INFISICAL_URL = YOUR_INFISICAL_URL
+         - INFISICAL_PROJECT_ID = YOUR_INFISICAL_PROJECT_ID
+         - INFISICAL_ENV_PATH = /PATH/TO/PROJECT-GROUP (Leave empty use default path "/")
+         - INFISICAL_ENVIRONMENT = Dev | Staging | Prod
+         - INFISICAL_CLIENT_ID = Machine Identity Client ID
+         - INFISICAL_CLIENT_SECRET = Machine Identity Secret Token
+         - GITLAB_INFISICAL_CLI_VERSION = Infisical CLI Version (Leave empty use default 0.31.0)
+
+4. Setup Gitlab Pipeline, create `.gitlab-ci.yml` file
 
 <script src="https://gist.github.com/taufiqpsumarna/53ea8fe30455f65dcafc3a9a12fe14f6.js"></script>
+
+   ![This Is Picture](/assets/images/infisical-06-gitlab-pipeline.png)
 
 ## Conclusion
 
