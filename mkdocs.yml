@@ -82,7 +82,9 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - open-in-new-tab
-  - glightbox
+  - glightbox:
+      zoomable: true
+      touchNavigation: true
 # Extension
 markdown_extensions:
   - admonition
