@@ -94,7 +94,7 @@ Once the container is running, you can access the OpenWebUI interface by navigat
 
 !!!tip
     ![openwebui signup](/assets/images/openwebui-signup.png)
-    For the first time you need create a local user by clicking up `sign up`, I took 30 minutes to realize it LOL 😂
+    For the first time you need create a local user by clicking up **sign up** inside Open WebUI , I took 30 minutes to realize it LOL 😂
 
 ### Step 5: Customizing the Setup
 
@@ -117,18 +117,19 @@ docker-compose down
 In this demo video (Bahasa): [Menjalankan ChatGPT secara lokal menggunakan docker openwebui dengan model phi3.5](https://youtu.be/o-A27OlPWcw)
 
 !!!info "System Specification"
-      Processor  : 12th Gen Intel(R) Core(TM) i5-12450H
-      CPU cores  : 12 @ 2496.008 MHz
-      GPU        : NVIDIA GeForce RTX 3050 Laptop GPU, compute capability 8.6
-      AES-NI     : ✔ Enabled
-      VM-x/AMD-V : ✔ Enabled
-      RAM        : 7.6 GiB
-      Swap       : 2.0 GiB
-      Disk       : 2.0 TiB
-      Distro     : Ubuntu 24.04.1 LTS
-      Kernel     : 5.15.153.1-microsoft-standard-WSL2
-      VM Type    : WSL version: 2.2.4.0
-      Operating system: Windows 11 - 64 Bit
+      - Processor  : 12th Gen Intel(R) Core(TM) i5-12450H
+      - CPU cores  : 12 @ 2496.008 MHz
+      - GPU        : NVIDIA GeForce RTX 3050 Laptop GPU, compute capability 8.6
+      - AES-NI     : ✔ Enabled
+      - VM-x/AMD-V : ✔ Enabled
+      - RAM        : 7.6 GiB
+      - Swap       : 2.0 GiB
+      - Disk       : 2.0 TiB
+      - Distro     : Ubuntu 24.04.1 LTS
+      - Kernel     : 5.15.153.1-microsoft-standard-WSL2
+      - VM Type    : WSL version: 2.2.4.0
+      - Operating system: Windows 11 - 64 Bit
+      - Docker Engine: Docker version 27.3.1, build ce12230 + Docker Compose version v2.29.2-desktop.2
 
 If you have an NVIDIA GPU like me and want to leverage its power to enhance the performance of your ChatGPT model, follow these steps:
 
