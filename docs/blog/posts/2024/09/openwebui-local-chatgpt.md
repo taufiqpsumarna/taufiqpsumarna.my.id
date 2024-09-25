@@ -88,7 +88,7 @@ This command builds the Docker image and starts the container. If this is the fi
 
 ### Step 4: Access OpenWebUI
 
-[openwebui signup](/assets/images/openwebui-signin.png)
+![openwebui signup](/assets/images/openwebui-signin.png)
 
 Once the container is running, you can access the OpenWebUI interface by navigating to `http://localhost:8080` in your web browser. This interface allows you to interact with your ChatGPT model seamlessly.
 
