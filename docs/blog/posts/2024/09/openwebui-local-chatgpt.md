@@ -135,41 +135,41 @@ If you have an NVIDIA GPU like me and want to leverage its power to enhance the 
 
 ### Step 1: Install WSL 2 and Ubuntu LTS
 
-1. Enable WSL: Open PowerShell as an administrator and run:
+- Enable WSL: Open PowerShell as an administrator and run:
 
    ```powershell
    wsl --install
    ```
 
-2. Set WSL 2 as Default:
+- Set WSL 2 as Default:
 
    ```powershell
    wsl --set-default-version 2
    ```
 
-3. Install Ubuntu LTS: You can find it in the Microsoft Store. Once installed, open it to complete the setup.
+- Install Ubuntu LTS: You can find it in the Microsoft Store. Once installed, open it to complete the setup.
 
 ### Step 2: Install NVIDIA Drivers
 
-1. Download and Install NVIDIA Drivers: Ensure you have the latest NVIDIA drivers that support WSL. You can download them from the [NVIDIA website](https://www.nvidia.com/Download/index.aspx).
+- Download and Install NVIDIA Drivers: Ensure you have the latest NVIDIA drivers that support WSL. You can download them from the [NVIDIA website](https://www.nvidia.com/Download/index.aspx).
 
-2. Install CUDA Toolkit: Follow the instructions on the [CUDA Toolkit Installation Guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#installation) to set it up within your WSL environment.
+- Install CUDA Toolkit: Follow the instructions on the [CUDA Toolkit Installation Guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#installation) to set it up within your WSL environment.
 
 ### Step 3: Install Docker in WSL 2
 
-1. Install Docker: Follow these commands within your WSL terminal:
+- Install Docker: Follow these commands within your WSL terminal:
 
    ```bash
    sudo curl -sL https://get.docker.com
    ```
 
-2. Start Docker:
+- Start Docker:
 
    ```bash
    sudo service docker start
    ```
 
-3. Add your user to the Docker group (to avoid using `sudo` with Docker):
+- Add your user to the Docker group (to avoid using `sudo` with Docker):
 
    ```bash
    sudo usermod -aG docker $USER
@@ -179,7 +179,7 @@ If you have an NVIDIA GPU like me and want to leverage its power to enhance the 
 
 ### Step 4: Install NVIDIA Container Toolkit
 
-1. Set Up the NVIDIA Docker Toolkit:
+- Set Up the NVIDIA Docker Toolkit:
    1.1 Configure the production repository:
 
     ```bash
@@ -198,14 +198,14 @@ If you have an NVIDIA GPU like me and want to leverage its power to enhance the 
 
    Follow the instructions from the [NVIDIA Docker documentation](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker) to install the NVIDIA Container Toolkit, which allows Docker to use your NVIDIA GPU.
 
-2. Configure NVIDIA Docker Toolkit
+- Configure NVIDIA Docker Toolkit
 
    ```bash
     sudo nvidia-ctk runtime configure --runtime=docker
     sudo systemctl restart docker
    ```
 
-3. Restart your system.
+- Restart your system.
 
 ### Step 5: Configure Docker to Use the GPU
 
