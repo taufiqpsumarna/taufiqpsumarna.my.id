@@ -2,11 +2,11 @@
 draft: true #Todo: Change False to post Blog
 authors: 
   - taufiqpsumarna
-title: "Hello World" #Todo: Add Blog Title
-date: 2024-09-06 #Todo: Change Date
+title: "Optimize Gitlab CI/CD Pipeline by 80%" #Todo: Add Blog Title
+date: 2024-10-15 #Todo: Change Date
 description: "Hello World Blog Template" #Todo: Add Short Description / Subtitle
 categories: [Blog] #Todo: Categories Blog, Medium, Other
-tags: [Hello-World] #Todo: Add Blog Tags
+tags: [devops,cicd,pipeline,gitlab] #Todo: Add Blog Tags
 ---
 
 # Hello World
