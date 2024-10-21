@@ -6,7 +6,7 @@ title: "Enhance Resource Security with Pritunl VPN Server" #Todo: Add Blog Title
 date: 2024-10-21 #Todo: Change Date
 description: "Secure remote access with ease by deploying Pritunl VPN Server for your corporate needs." #Todo: Add Short Description / Subtitle
 categories: [Blog] #Todo: Categories Blog, Medium, Other
-tags: [security, vpn, pritunl] #Todo: Add Blog Tags
+tags: [security,vpn,linux,pritunl] #Todo: Add Blog Tags
 ---
 
 ![Enhance Resource Security with Pritunl VPN Server](/assets/images/Enhance-Resource-Security-with-Pritunl-VPN-Server.png)
