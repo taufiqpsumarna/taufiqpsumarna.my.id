@@ -2,18 +2,20 @@
 draft: true #Todo: Change False to post Blog
 authors: 
   - taufiqpsumarna
-title: "Hello World" #Todo: Add Blog Title
-date: 2024-09-06 #Todo: Change Date
-description: "Hello World Blog Template" #Todo: Add Short Description / Subtitle
+title: "How To: Send Grafana Alert Into Mattermost" #Todo: Add Blog Title
+date: 2024-10-17 #Todo: Change Date
+description: "Configure a Grafana alerting contact point using mattermost webhook." #Todo: Add Short Description / Subtitle
 categories: [Blog] #Todo: Categories Blog, Medium, Other
-tags: [Hello-World] #Todo: Add Blog Tags
+tags: [sre,grafana,mattermost] #Todo: Add Blog Tags
 ---
 
-![This Is Blog Picture](/assets/images/hello_world.jpg)
+# How To: Send Grafana Alert Into Mattermost
+
+![This Is Picture](/assets/images/hello_world.jpg)
 
 
 ``` bash
-echo "Hello World"
+echo "How To: Send Grafana Alert Into Mattermost"
 ```
 
 ## Struktur Folder Blog
@@ -47,5 +49,4 @@ How to call image?
     ```
 
 ## Reference
-- [Markdown Cheat Sheets](https://www.markdownguide.org/cheat-sheet/)
-- [Mkdocs Material Reference](https://squidfunk.github.io/mkdocs-material/reference/)
+- [Grafana alerting notifications in Mattermost](https://blog.skarhed.com/grafana-alert-notification-in-mattermost/)
